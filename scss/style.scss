@@ -1,0 +1,152 @@
+body li {
+  list-style: none;
+}
+
+.navbar {
+  background: #1d1b1b00;
+  z-index: 10;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.navbar-nav {
+  font-weight: 600;
+}
+
+.logo {
+  color: #ffc107 !important;
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+.home-section {
+  overflow-x: hidden;
+}
+
+.carousel {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 20%;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border: white 1px solid;
+  color: rgba(255, 255, 255, 0.082);
+}
+
+.hero-bottom {
+  margin-top: -6rem;
+  min-height: 15vh;
+}
+
+/*----About Us----*/
+#aboutus {
+  overflow: hidden;
+}
+.aboutus-left {
+  background-image: url("../images/aboutbg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+}
+
+.projects-completed {
+  margin-top: 22rem;
+  min-height: 5rem;
+}
+
+.about-icon {
+  font-size: 4rem;
+}
+
+.pink-webdesign {
+  color: #ff3254;
+}
+
+/*----Services----*/
+.service-col1 {
+  background-image: url("../images/s1.jpg");
+  background-size: cover;
+}
+.service-col2 {
+  background-image: url("../images/s2.jpg");
+  background-size: cover;
+}
+.service-col3 {
+  background-image: url("../images/s3.jpg");
+  background-size: cover;
+}
+.service-col4 {
+  background-image: url("../images/s4.jpg");
+  background-size: cover;
+}
+
+/*----Whats New----*/
+#whatsnew {
+  overflow-x: hidden;
+  background-image: url("../images/c1.jpg");
+  background-size: cover;
+}
+
+.card {
+  min-height: 60vh;
+}
+
+.card p {
+  color: #8d8d8d;
+}
+
+/*----Contact Us----*/
+
+#contactus {
+  overflow-x: hidden;
+}
+
+.contactbtn {
+  background: #525252;
+  color: white;
+  border: none;
+}
+
+.contact-section-ul {
+  margin-left: -25px;
+}
+
+.contact-section-ul li {
+  border-bottom: 0.5px solid #8d8d8d;
+  padding: 10px 0px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #8d8d8d;
+}
+
+#contactus input {
+  background-color: #2e2e2e;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+#contactus button {
+  font-weight: 600;
+}
+
+/*----FOOTER----*/
+
+#footer {
+  overflow-x: hidden;
+}
+
+.footer-social li a {
+  color: white;
+  //   background-color: #1d1d24;
+  //   padding: 10px;
+  font-size: 1.2rem;
+  //   border-radius: 50%;
+}
